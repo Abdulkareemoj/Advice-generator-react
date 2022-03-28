@@ -37,11 +37,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- A bit of Flexbox and CSS Grid
-- Mobile-first workflow 
-
+- ReactJS Framework
 
 ### What I learned
 
