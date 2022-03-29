@@ -16,8 +16,8 @@ setText(data)
  fetchMessageAdvice()
 },[])
   return (<div className="container">
-    <h1>Advice # {text.slip.id}</h1>
-    <p>{text.slip.advice}</p>
+    <h1>Advice # {text?.slip?.id}</h1>
+    <p>{text?.slip?.advice}</p>
     <picture>
     <source media="(min-width:768px)" srcSet= {buttd}/>
    <img src={buttm} alt="" />
