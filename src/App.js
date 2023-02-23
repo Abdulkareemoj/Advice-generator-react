@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import buttm from "./images/pattern-divider-mobile.svg";
-import buttd from "./images/pattern-divider-desktop.svg";
+import buttmobile from "./images/pattern-divider-mobile.svg";
+import buttdesktop from "./images/pattern-divider-desktop.svg";
 import dice from "./images/icon-dice.svg";
 function App() {
   const[text, setText] = useState([])
@@ -19,8 +19,8 @@ setText(data)
     <h1>Advice # {text?.slip?.id}</h1>
     <p>{text?.slip?.advice}</p>
     <picture>
-    <source media="(min-width:768px)" srcSet= {buttd}/>
-   <img src={buttm} alt="" />
+    <source media="(min-width:768px)" srcSet= {buttdesktop}/>
+   <img src={buttmobile} alt="" />
     </picture>
    
    
